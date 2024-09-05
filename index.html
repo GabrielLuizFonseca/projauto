@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoescola Rápida</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="menuToggle">☰ Menu</div>
+        <nav id="sideMenu">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Autoescola Rápida</h1>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo à Autoescola Rápida! Oferecemos cursos de direção de alta qualidade para ajudar você a obter sua habilitação com confiança.</p>
+    </section>
+
+    <section id="serviços">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Curso de Habilitação Categoria B</li>
+            <li>Aulas de Direção Defensiva</li>
+            <li>Simulador de Direção</li>
+            <li>Revisão para Provas</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contatoForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="resposta"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Autoescola Rápida. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
